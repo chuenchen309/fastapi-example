@@ -12,26 +12,26 @@
 - 結構化日誌系統
 
 ## 專案結構
-fastapi-example-api/
-├── app/
-│ ├── api/
-│ │ ├── console/
+fastapi-example-api
+├── app
+│ ├── api
+│ │ ├── console
 │ │ │ ├── base.py
 │ │ │ └── template.py
 │ │ ├── init.py
 │ │ └── router.py
-│ ├── schemas/
+│ ├── schemas
 │ │ └── base.py
-│ ├── services/
-│ │ ├── database/
+│ ├── services
+│ │ ├── database
 │ │ │ ├── init.py
 │ │ │ └── mongo.py
-│ ├── utils/
+│ ├── utils
 │ │ ├── base.py
 │ │ └── logger.py
 │ ├── config.py
 │ └── main.py
-├── logs/
+├── logs
 ├── Dockerfile
 ├── requirements.txt
 ├── run.py
@@ -107,14 +107,6 @@ docker run -p 5000:5000 edgar/fastapi-example:1.0.1
 ### 資料庫操作
 
 使用 `app/services/database/mongo.py` 中的 MongoDB 連接類別進行資料庫操作。
-
-## 貢獻指南
-
-1. Fork 專案
-2. 建立功能分支 (`git checkout -b feature/amazing-feature`)
-3. 提交變更 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 開啟 Pull Request
 
 ## 授權
 
