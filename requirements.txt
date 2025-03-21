@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+aiohttp
+pydantic
+pydantic-settings
+pymongo
+loguru
+rich
+
