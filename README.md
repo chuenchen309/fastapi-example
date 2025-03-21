@@ -11,32 +11,6 @@
 - Docker 容器化支援
 - 結構化日誌系統
 
-## 專案結構
-fastapi-example-api
-├── app
-│ ├── api
-│ │ ├── console
-│ │ │ ├── base.py
-│ │ │ └── template.py
-│ │ ├── init.py
-│ │ └── router.py
-│ ├── schemas
-│ │ └── base.py
-│ ├── services
-│ │ ├── database
-│ │ │ ├── init.py
-│ │ │ └── mongo.py
-│ ├── utils
-│ │ ├── base.py
-│ │ └── logger.py
-│ ├── config.py
-│ └── main.py
-├── logs
-├── Dockerfile
-├── requirements.txt
-├── run.py
-└── build.sh
-
 ## 安裝與設定
 
 ### 環境需求
